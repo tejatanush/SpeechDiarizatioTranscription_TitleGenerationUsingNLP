@@ -38,8 +38,9 @@ python Feature1/main.py runserver
 - URL: http://127.0.0.1:8000/transcribe/?audio_file  
 - Method: POST  
 - Description: Upload an audio file in .wav format using the `audio_file` form field and click send button. Now after some time around 2 to 3 minutes you will get the json format of speaker,start,end and transcription. (e.g., via Postman)
-- Example Input:
+- Example Input: Just use the audio_file.wav in  Feature1 folder. Please upload the file in value column and make key name as audio_file. 
 - Example Output:
+  ```json
   [
   {
     "speaker": "SPEAKER_00",
@@ -47,8 +48,7 @@ python Feature1/main.py runserver
     "start": 0.0,
     "end": 5.0
   },
-  ...
-]
+  ...]
 ---
 
 ### ▶️ Feature 2: Title Suggestions using NLP
