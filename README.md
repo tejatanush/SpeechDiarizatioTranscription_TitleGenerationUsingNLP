@@ -24,6 +24,8 @@ pip install -r requirements.txt
 ##  Running the Django Features
 
 Both features are standalone Django apps with independent `main.py` files to run servers.
+So for Feature 1 run "python Feature1/main.py runserver"
+For Feature 2 run "python Feature2/main.py runserver"
 
 ---
 
