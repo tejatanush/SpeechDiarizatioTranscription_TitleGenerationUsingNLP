@@ -37,8 +37,18 @@ python Feature1/main.py runserver
 
 - URL: http://127.0.0.1:8000/transcribe/?audio_file  
 - Method: POST  
-- Description: Upload an audio file in .wav format using the `audio_file` form field (e.g., via Postman)
-
+- Description: Upload an audio file in .wav format using the `audio_file` form field and click send button. Now after some time around 2 to 3 minutes you will get the json format of speaker,start,end and transcription. (e.g., via Postman)
+- Example Input:
+- Example Output:
+  [
+  {
+    "speaker": "SPEAKER_00",
+    "text": "Your transcription...",
+    "start": 0.0,
+    "end": 5.0
+  },
+  ...
+]
 ---
 
 ### ▶️ Feature 2: Title Suggestions using NLP
@@ -52,7 +62,8 @@ python Feature2/main.py runserver
 - URL: http://127.0.0.1:8000/suggest-titles/  
 - Method: POST  
 - Description: Submit textual content in the body to get title suggestions generated using NLP models.
-
+- Example Input
+- Example Output
 ---
 
 ---
