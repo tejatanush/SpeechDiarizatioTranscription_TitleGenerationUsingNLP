@@ -11,7 +11,7 @@ Ensure you have **Python 3.10** installed on your system.
 
 ### 1. Clone the Repository
 
-git clone 
+git clone https://github.com/tejatanush/Darwix_AI_assignment.git
 cd Darwix_AI
 
 ### 2. Create a Virtual Environment (Recommended)
