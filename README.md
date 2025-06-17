@@ -44,11 +44,11 @@ python Feature1/main.py runserver
   [
   {
     "speaker": "SPEAKER_00",
-    "text": "Your transcription...",
+    "text": "transcription...",
     "start": 0.0,
     "end": 5.0
   },
-  ...]
+  ]
 ---
 
 ### ▶️ Feature 2: Title Suggestions using NLP
@@ -62,13 +62,16 @@ python Feature2/main.py runserver
 - URL: http://127.0.0.1:8000/suggest-titles/  
 - Method: POST  
 - Description: Submit textual content in the body to get title suggestions generated using NLP models.
-- Example Input
-- Example Output
----
+- Example Input:
+  ```json
+  {
+  "blog_content": "Artificial Intelligence is transforming the healthcare industry by enabling faster diagnosis, improving patient outcomes, and reducing the burden on medical professionals. AI-driven tools can analyze medical images, predict disease risk, and assist doctors in making more informed decisions."}
 
----
+- Example Output:
+```json
+{
+    "titles": [
+        "Revolutionizing Healthcare: How AI is Transforming Patient Care",
+        "The Future of Medicine: Unlocking the Power of Artificial Intelligence",
+        "Healing with Code: The Impact of AI on Healthcare and Beyond"]}
 
-## ✨ Author
-
-**Tanush Teja** – AI/ML Developer  
-Seeking to integrate AI into real-world systems.
