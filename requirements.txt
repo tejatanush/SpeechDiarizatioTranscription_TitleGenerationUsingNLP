@@ -1,0 +1,9 @@
+torchaudio
+git+https://github.com/m-bain/whisperx
+pyannote-audio
+pyannote.audio
+django
+langchain 
+langchain-community
+langchain-groq
+python-dotenv
