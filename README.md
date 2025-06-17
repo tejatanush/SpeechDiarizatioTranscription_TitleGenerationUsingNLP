@@ -14,22 +14,14 @@ Ensure you have **Python 3.10** installed on your system.
 git clone https://github.com/tejatanush/Darwix_AI_assignment.git
 cd Darwix_AI
 
-### 2. Create a Virtual Environment (Recommended)
 
-python -m venv venv  
-# Activate the environment:  
-# On Windows:  
-venv\Scripts\activate  
-# On Linux/macOS:  
-source venv/bin/activate
-
-### 3. Install Dependencies
+### 2. Install Dependencies
 
 pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Django Features
+##  Running the Django Features
 
 Both features are standalone Django apps with independent `main.py` files to run servers.
 
@@ -45,7 +37,7 @@ python Feature1/main.py runserver
 
 - URL: http://127.0.0.1:8000/transcribe/?audio_file  
 - Method: POST  
-- Description: Upload an audio file using the `audio_file` form field (e.g., via Postman)
+- Description: Upload an audio file in .wav format using the `audio_file` form field (e.g., via Postman)
 
 ---
 
@@ -62,47 +54,6 @@ python Feature2/main.py runserver
 - Description: Submit textual content in the body to get title suggestions generated using NLP models.
 
 ---
-
-## 📁 Project Structure
-
-Darwix_AI_Assignment/  
-├── Feature1/  
-│   ├── __init__.py  
-│   ├── main.py  
-│   ├── settings.py  
-│   ├── urls.py  
-│   ├── views.py  
-│   ├── audio_file.wav  
-│   └── Audio_Transcription_with_Diarization.ipynb  
-├── Feature2/  
-│   ├── __init__.py  
-│   ├── main.py  
-│   ├── settings.py  
-│   ├── urls.py  
-│   ├── views.py  
-│   ├── utils.py  
-│   └── title_suggestions.ipynb  
-├── .env  
-├── .gitignore  
-├── requirements.txt  
-└── README.md
-
----
-
-## 🛡️ Security Note
-
-- Make sure to store your API keys (like Hugging Face or OpenAI) securely in the `.env` file.  
-- The `.env` file is excluded from version control via `.gitignore`.
-
----
-
-## ✅ Dependencies
-
-- Django  
-- WhisperX  
-- Pyannote.audio  
-- Hugging Face Transformers  
-- Any other packages listed in `requirements.txt`
 
 ---
 
