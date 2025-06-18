@@ -2,7 +2,6 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-SECRET_KEY = "dummy-secret-key"
 DEBUG = True
 ALLOWED_HOSTS = []
 
@@ -13,10 +12,4 @@ MIDDLEWARE = [
 
 INSTALLED_APPS = []
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-    }
-}
 
-DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
