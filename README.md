@@ -1,4 +1,4 @@
-# Darwix_AI_Assignment
+# SpeechDiarizatioTranscription&TitleGenerationUsingNLP
 
 This repository contains two Django-based features developed as part of the **Darwix AI Assignment**.  
 Each feature is implemented independently with its own entry point and Django setup.
