@@ -1,6 +1,6 @@
 # SpeechDiarizatioTranscription&TitleGenerationUsingNLP
 
-This repository contains two Django-based features developed as part of the **Darwix AI Assignment**.  
+This repository contains two Django-based features .  
 Each feature is implemented independently with its own entry point and Django setup.
 
 For Feature 1 which is Audio Transcription with Diarization I am using pyannote/speaker-diarization-3.1 for Diarization and whisperx for Transcription. So for this purpose I am taking access from hugging face with my college id and website and then making an API token by giving some access to that token and using in this project. So make sure to use my tokens only.
